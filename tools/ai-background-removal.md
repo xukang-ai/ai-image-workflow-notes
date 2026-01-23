@@ -1,23 +1,39 @@
-AI Background Removal
+# AI 背景去除工具实践笔记
 
-## What it is
-AI-based tools that automatically remove or replace image backgrounds.
+## 工具名称
+AI Background Removal（通用型背景去除工具）
 
-## Why I care
-- Speeds up background removal compared to manual PS work
-- Useful for product images and portraits
-- Saves time in repetitive tasks
+## 使用场景
+- 人像抠图
+- 商品图抠图
+- 儿童插画角色分离
+- 教学演示用（PS + AI 对比）
 
-## Typical use cases
-- Product photo background cleanup
-- Portrait background replacement
-- Preparing images for e-commerce
+## 基本流程
+1. 上传图片
+2. AI 自动识别主体
+3. 一键去除背景
+4. 导出透明 PNG
+5. 进入 Photoshop 做精修
 
-## How I use it
-- Rough background removal with AI
-- Fine-tune edges in Photoshop
-- Final color and detail adjustments in PS
+## 优点
+- 速度快
+- 上手门槛低
+- 非专业用户也能用
+- 适合课堂演示
 
-## Notes
-- AI results are not always perfect
-- Manual retouch is often still needed
+## 不足
+- 复杂边缘（头发、纱、透明物）容易出错
+- 需要 PS 二次修边
+
+## 教学中的用法
+- 先用 AI 快速得到结果
+- 再在 PS 中讲解：
+  - 蒙版
+  - 边缘调整
+  - 细节修复
+- 学生更容易理解“AI + 人工”的关系
+
+## 我的总结
+AI 不是替代 PS，
+而是 **帮我们把时间省在真正有价值的地方**。
